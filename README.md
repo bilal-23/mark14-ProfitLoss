@@ -3,4 +3,4 @@ Description : An application which takes initial price, number and current price
 
 Tech Stack : React
 
-Live code is [here](https://0ij4n3.csb.app/).
+Live code is [here](https://mark14-profitlossapp.netlify.app/).
