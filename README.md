@@ -1,2 +1,6 @@
-# mark14-ProfitLoss
-Created with CodeSandbox
+# Profit Or Loss?
+Description : An application which takes initial price, number and current price of stocks as input. It gives the profit earned or loss incurred as output.
+
+Tech Stack : React
+
+Live code is [here](https://0ij4n3.csb.app/).
