@@ -48,7 +48,7 @@ export default function App() {
     } else {
       setSuccess(false);
       setError(
-        `Yay, your loss is ${difference} and loss percentage is ${percentage}%`
+        `Oops, your loss is ${difference} and loss percentage is ${percentage}%`
       );
     }
   }
