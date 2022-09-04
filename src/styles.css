@@ -15,6 +15,7 @@
 
 html {
   font-size: 62.5%;
+  height: 100vh;
 }
 @media screen and (max-width: 600px) {
   html {
@@ -26,8 +27,13 @@ body {
   color: var(--primary-color);
   background-color: var(--bg-color);
   overflow-x: hidden;
+  height: 100%;
 }
-
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .text-center {
   text-align: center;
 }
@@ -72,13 +78,13 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin-top: 5rem;
 }
 .container {
   padding: 5rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  flex: 1;
 }
 .input-group {
   width: 100%;
